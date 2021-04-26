@@ -11,17 +11,38 @@ body{
 	font-family: Lato, "Helvetica Neue", Arial, sans-serif;
 	color: #333;
 }
-h1, h2, h3, h4, h5, h6 {
+h1{
+  font: 100px/120px "Francois One", Verdana, sans-serif;
+  text-align: center;
+  background-color: #000100;
+  bottom: 0;
+  width: 40%;
+  color: #fff;
+  clear: both;
+  padding: 8px;
+  border-bottom: 1px solid #fff;
+
+}
+
+h2, h3, h4, h5, h6 {
 	font-family: Georgia, "Times New Roman", Times, serif;
 }
 .lead-description{
-	font-family: Georgia, serif;
+    width: 650px;
+    margin: 0 auto;
+    color: #000;
+    background-color: #fff;
+    padding: 10px;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-size: 19px;
+    line-height: 140%;
+
 }
 
 
 /* CSS for hero image, either background photo or background video */
 .hero{
-  background-image: url("../assets/sample-images/desk.jpg");
+  background-image: url("../assets/Pressing%20need.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -30,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 .hero header{
-  background-color:rgba(0,0,0,0.75);
+  background-color:rgba(0,0,0,0.30);
 
 }
 .hero header > *{
@@ -61,7 +82,12 @@ h1, h2, h3, h4, h5, h6 {
 .vh-500{ height: 500vh;}
 .vh-600{ height: 600vh;}
 
-
+.headliner{
+  width: 600px !important;
+  height: 800;
+  display: inline-block;
+  
+}
 
 /* Sticky graphic */
 .scroll-graphic{
@@ -70,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .image-holder{
-  background-image: url(../assets/sample-images/map-1.jpg);
+  background-image: url(../assets/morerestrooms/restroom-sign.jpg);
   position: absolute;
   width: 100vw;
   height: 100vh;
