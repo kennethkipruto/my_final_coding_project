@@ -10,6 +10,8 @@ html,body{
 body{
 	font-family: Lato, "Helvetica Neue", Arial, sans-serif;
 	color: #333;
+    font-size: 1.2em;
+    line-height: 1.8em;
 }
 h1{
   font: 100px/120px "Francois One", Verdana, sans-serif;
@@ -35,10 +37,16 @@ h2, h3, h4, h5, h6 {
     padding: 10px;
     font-family: "Open Sans", Helvetica, sans-serif;
     font-size: 19px;
-    line-height: 140%;
+    line-height: 300%;
 
 }
 
+.story{
+  padding: 10px;
+  font-family: 	font-family: Lato, "Helvetica Neue", Arial, sans-serif;
+
+  font-weight: 600; 
+}
 
 /* CSS for hero image, either background photo or background video */
 .hero{
